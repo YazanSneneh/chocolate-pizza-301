@@ -1,0 +1,83 @@
+body{
+    color: #000;
+    margin: 3% 15%
+}
+h1,h2,h3,h4,h5,h6{
+    margin : 0;
+}
+#logo{
+    float: left;
+    width: 50px;
+    margin : 0 15px;
+}
+p{
+    margin : 0;
+}
+
+header ul{
+    clear: both;
+    float: right;
+    list-style-type: none;
+    position: relative;
+    bottom: 50px;
+}
+header ul li{
+     display: inline-block;
+}
+hr{
+    clear: both;
+    border: none;
+    border-top: 15px dashed black;
+    margin : 5% 0;
+    opacity: 0.5;
+}
+
+main p {
+    opacity: 0.5;
+    margin: 0;
+}
+main button {
+    float :right;
+    position: relative;
+    bottom: 30px;
+    background-color: inherit;
+    border: none;
+}
+home-img{
+    width: 100%;;
+}
+main section p {
+    opacity: 1;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+#recipe-section{
+     background-image: url('assets/list-bg.png');
+
+}
+form{
+    padding: 5% 20% 5%;
+}
+form div{
+    display: inline-block;
+    width: 48%;
+}
+
+#textimonial img{
+    float: left;
+    margin-right: 20px;
+}
+#textimonial button{
+    padding: 15px 20px;
+    background-color: brown;
+    color: #fff;
+    float: right;
+}
+footer{
+    clear: both;
+    padding: 5%;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px;
+}
